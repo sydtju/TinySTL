@@ -595,6 +595,5 @@ TinySTL
 	uf.Union(2, 3);
 	uf.Union(3, 1);
 	assert(uf.Find(0) == uf.Find(2));
-    
- 
+####(20):子字符查询 改进原来代码中mn-n的复杂度    
     
